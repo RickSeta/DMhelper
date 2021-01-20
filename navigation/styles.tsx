@@ -2,12 +2,12 @@ import {StyleSheet} from 'react-native'
 const styles =StyleSheet.create({
     button:{
         elevation: 8,
-        backgroundColor: "#009688",
+        backgroundColor: "green",
         borderRadius: 10,
         paddingVertical: 10,
         paddingHorizontal: 12,
-        alignSelf: "center",
-        width:'20%'
+        margin: 10,
+        width:'55%'
     },
     buttonText:{
         fontSize: 18,
@@ -22,7 +22,7 @@ const styles =StyleSheet.create({
         textAlign: 'center',
         fontSize: 30,
         fontWeight: 'bold',
-        fontFamily: 'ArialMT',
+        fontFamily: 'normal',
         margin: 30
     }
     
